@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    </head>
+    <body>
+<div id="demo">  
+   <div class="container">
+    <nav>
+<h1>PORTFO<span>LIO</span></h1>
+    <ul id="sidemenu">
+        <i class="fas fa-times" onclick="closemenu()"></i>
+
+        <li><a href="#demo">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <i class="fas fa-bars" onclick="openmenu()"></i>
+
+</nav>
+    <div class="header">
+    
+        <p>Hi,There!</p>
+        <h2>I'M <span>Pooja Bedre</span><br></h2>
+         <h3>Creative web designer and I'm very passionate <br>and dedicated to my work.</h3>
+   
+    </div>
+   </div>
+</div>
+
+<!-------------------------------------About me------------------------------------------------>
+<div id="about">
+    <div class="content">
+            <div class="about-col-1">
+                <img src="C:\portfolio77\assets\IMG-20220409-WA0003.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1>About me</h1>
+                <p>My name is Pooja and I'm well versed web designer.
+                    Seeking a role as a front-end developer position in a reputable organization.
+                    My skills in web designing help me craft visually appealing pieces of design work.<br>
+                    I'm dedicated to continuously learning about new web design trends and concepts.
+                    Posses excellent communication skills and
+                    flexible to work in any environment as required.</p>
+                    <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>HTML</span><br>Designing web pages</li>
+                        <li><span>CSS</span><br>Designing presentable web page</li>
+                        <li><span>Java Script</span><br>Web app Development</li>
+                        <li><span>React.js</span><br>Building composable user interfaces</li>
+
+                     </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>2019</span><br>B.E at PES Institute of Technology and Managament,Shivamogga<br>CGPA: 7.42</li>
+                           <li><span>2015</span><br>P.U.C at KLE Science College,Hangal<br>Percentage: 80.5%</li>
+                           <li><span>2013</span><br>S.S.L.C at Roshani High School,Hangal<br>Percentage: 86.72%</li>   
+                        </ul>
+                       </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------My work-------------------------------------------------------->
+    <div id="portfolio">
+        <div class="container1">
+            <h1>My work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="C:\portfolio77\assets\work-1.png" alt="" width="400" height="500">
+                     <div class="layer">
+                        <h3>Online Calculator</h3>
+                        <p> It is an interactive software tool that is designed to process a predefined set of mathematical functions in order to simulate a business process.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="C:\portfolio77\assets\work-2.png" alt="" width="400" height="500">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                         <p>The app that tracks the user's location. Included a feature that updates the user on weather changes as they travel.</p>
+                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                         </div>
+                </div>
+                <div class="work">
+                    <img src="C:\portfolio77\assets\work-3.png" alt="" width="400" height="500">
+                    <div class="layer">
+                        <h3>Glassmorphism Website</h3>
+                          <p>Implements the functioning of Glassmorphism that performs various functions like log in, search and much more. </p>
+                          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                        </div>
+                </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!---------------------------------------contact me------------------------------------------------->
+    <div id="contact">
+       
+          <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>&nbsp&nbsppoojanavale65@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i>&nbsp&nbsp8310841447</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i>&nbsp&nbsp</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i>&nbsp&nbsp</a>
+                    <a href="#"><i class="fab fa-instagram"></i>&nbsp&nbsp</a>
+                    <a href="#"><i class="fab fa-linkedin"></i>&nbsp&nbsp</a>
+                </div>
+                   <div class="btn">
+                    <a href="C:\Users\LENOVO\Documents\portfolio77\assets\Pooja-B-L -2.pdf" download>Download Resume</a>
+                   </div>
+                   
+          </div>
+             <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required><br>
+                    <input type="email" name="Email" placeholder="Your Email" required><br>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea><br>
+                    <button type="submit" class="btn1">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+             </div>
+            
+       </div>
+       <div class="copyright">
+        <p>copyright <i class="far fa-copyright"></i> Pooja.L.B. Made by <i class="fas fa-heart"></i></p>
+     </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+     
+     <script>
+
+        var sidemenu=document.getElementById('sidemenu');
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+     </script>
+     
+    
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyawVLPvkFN-mW8iJjXHF6TbHK_moIC8fyYZ0rYuTaNhmNPZNWl_AP5420xwBEOp4KD/exec'
+        const form = document.forms['submit-to-google-sheet']
+       const msg=document.getElementById('msg')
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=''
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+    </html>
